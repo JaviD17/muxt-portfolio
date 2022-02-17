@@ -24,26 +24,26 @@ const SideDrawer = ({ navLinks }) => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: 250, marginTop: "auto", marginBottom: "auto" }}
+      sx={{ width: 250, marginTop: `auto`, marginBottom: `auto` }}
       role="presentation"
-      onclick={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      {navLinks.map(({ title, path }, i) => {
+      {navLinks.map(({ title, path }, i) => (
         <Typography
-          variant="button"
+          variannt="button"
           key={`${title}${i}`}
           sx={{
             ml: 5,
             my: 2,
-            textTransform: "uppercase",
+            textTransform: `uppercase`,
           }}
         >
           <MuiNextLink sx={{ color: "common.white" }} href={path}>
             {title}
           </MuiNextLink>
-        </Typography>;
-      })}
+        </Typography>
+      ))}
     </Box>
   );
 
@@ -54,15 +54,15 @@ const SideDrawer = ({ navLinks }) => {
         aria-label="menu"
         onClick={toggleDrawer("right", true)}
         sx={{
-          color: "common.white",
-          display: { xs: "inline", md: "none" },
+          color: `common.white`,
+          display: { xs: `inline`, md: `none` },
         }}
       >
         <Menu fontSize="large" />
       </IconButton>
       <Drawer
         anchor="right"
-        open={stae.right}
+        open={state.right}
         onClose={toggleDrawer("right", false)}
         sx={{
           ".MuiDrawer-paper": {
