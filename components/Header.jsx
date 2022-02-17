@@ -8,6 +8,13 @@ import MuiNextLink from "./MuiNextLink";
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
+export const navLinks = [
+  { title: "home", path: "/" },
+  { title: "about", path: "/about" },
+  { title: "menu", path: "/menu" },
+  { title: "contact", path: "/contact" },
+];
+
 const Header = () => {
   return (
     <>
