@@ -6,7 +6,7 @@ let theme = createTheme({
   palette: {
     primary: deepPurple,
     secondary: amber,
-    mode: 'dark'
+    // mode: 'dark'
   },
 });
 
