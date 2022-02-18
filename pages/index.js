@@ -9,7 +9,7 @@ import Hero from "../components/Hero";
 const Homepage = () => {
   return (
     <React.Fragment>
-      <Hero imgSrc="/home-hero.jpg" imgAlt="Colorful background" />
+      <Hero imgSrc="/home-hero.jpg" imgAlt="Colorful background" title="Javi's Portfolio" subtitle="Build your craft" />
       <Container maxWidth="sm">
         <h1>Home Page</h1>
         <p>
