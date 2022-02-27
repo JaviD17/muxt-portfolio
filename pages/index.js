@@ -3,10 +3,11 @@
 // import styles from '../styles/Home.module.css'
 
 import * as React from "react";
-import Container from "@mui/material/Container";
+// import Container from "@mui/material/Container";
 import Hero from "../components/Hero";
 import SectionAbout from "../components/SectionAbout";
 import SectionImage from "../components/SectionImage";
+import SectionReview from '../components/SectionReview';
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
       />
       <SectionAbout />
       <SectionImage imgSrc="/programming.jpg" imgAlt="A half open macbook" />
+      <SectionReview />
     </React.Fragment>
   );
 };
