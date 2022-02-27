@@ -5,11 +5,13 @@
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Hero from "../components/Hero";
+import SectionAbout from "../components/SectionAbout";
 
 const Homepage = () => {
   return (
     <React.Fragment>
       <Hero imgSrc="/home-hero.jpg" imgAlt="Colorful background" title="Javi's Portfolio" subtitle="Build your craft" />
+      <SectionAbout />
       <Container maxWidth="sm">
         <h1>Home Page</h1>
         <p>

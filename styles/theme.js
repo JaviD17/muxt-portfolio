@@ -7,6 +7,7 @@ let theme = createTheme({
     primary: deepPurple,
     secondary: amber,
     // mode: 'dark'
+    // #6C63FF is the HEX color of the svg about section
   },
 });
 
