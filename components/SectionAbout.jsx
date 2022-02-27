@@ -13,7 +13,7 @@ const SectionAbout = () => {
           <Image
             src="/portfolio.svg"
             alt="A portfolio"
-            Layout="responsive"
+            layout="responsive"
             width={800}
             height={600}
           />

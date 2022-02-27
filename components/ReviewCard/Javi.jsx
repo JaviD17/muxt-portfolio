@@ -5,7 +5,7 @@ import CardHeader from "@mui/material/CardHeader";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 
-import red from "@mui/material/colors/red";
+import { red } from "@mui/material/colors";
 
 const JaviReview = () => {
   return (

@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
+import JaviReview from "./ReviewCard/Javi";
 
 const SectionReview = () => {
   return (
@@ -9,14 +10,9 @@ const SectionReview = () => {
         Customer Review
       </Typography>
       <Grid container spacing={2}>
-        <Grid
-          container
-          item
-          justifyContent="center"
-          xs={12}
-          sm={6}
-          md={4}
-        ></Grid>
+        <Grid container item justifyContent="center" xs={12} sm={6} md={4}>
+          <JaviReview />
+        </Grid>
       </Grid>
     </Container>
   );
