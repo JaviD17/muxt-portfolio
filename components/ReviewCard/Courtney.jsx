@@ -5,14 +5,14 @@ import CardHeader from "@mui/material/CardHeader";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
 
-import { red } from "@mui/material/colors";
+import { lightGreen } from "@mui/material/colors";
 
 const CourtneyReview = () => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="Javi profile letter">
+          <Avatar sx={{ bgcolor: lightGreen[400] }} aria-label="Javi profile letter">
             CO
           </Avatar>
         }
