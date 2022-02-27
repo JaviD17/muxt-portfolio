@@ -2,6 +2,8 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import JaviReview from "./ReviewCard/Javi";
+import PedroReview from "./ReviewCard/Pedro";
+import CourtneyReview from "./ReviewCard/Courtney";
 
 const SectionReview = () => {
   return (
@@ -12,6 +14,12 @@ const SectionReview = () => {
       <Grid container spacing={2}>
         <Grid container item justifyContent="center" xs={12} sm={6} md={4}>
           <JaviReview />
+        </Grid>
+        <Grid container item justifyContent="center" xs={12} sm={6} md={4}>
+          <PedroReview />
+        </Grid>
+        <Grid container item justifyContent="center" xs={12} sm={6} md={4}>
+          <CourtneyReview />
         </Grid>
       </Grid>
     </Container>
