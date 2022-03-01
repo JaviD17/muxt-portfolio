@@ -4,9 +4,11 @@ import { deepPurple, amber } from "@mui/material/colors";
 // Create a theme instance.
 let theme = createTheme({
   palette: {
-    primary: deepPurple,
+    primary: {
+      main: "#6C63FF"
+    },
     secondary: amber,
-    // mode: 'dark'
+    mode: 'dark'
     // #6C63FF is the HEX color of the svg about section
   },
 });

@@ -10,7 +10,7 @@ const NavigationCard = ({ imgSrc, imgAlt, title, desc, pagePath, ctaText }) => {
   return (
     <Card sx={{ maxWidth: 480 }}>
       <CardMedia sx={{ height: 270 }} image={imgSrc} title={imgAlt} />
-      <CardContent>
+      <CardContent sx={{ bgcolor: 'primary.main' }}>
         <Typography component="h3" variant="h5" gutterBottom>
           {title}
         </Typography>
@@ -18,9 +18,9 @@ const NavigationCard = ({ imgSrc, imgAlt, title, desc, pagePath, ctaText }) => {
           {desc}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ bgcolor: 'primary.main' }}>
         <MuiNextLink href={pagePath} underline="none">
-          <Button variant="contained" size="large">
+          <Button variant="contained" size="large" sx={{ bgcolor: 'common.black' }}>
             {ctaText}
           </Button>
         </MuiNextLink>

@@ -14,7 +14,7 @@ const Footer = () => {
         sx={{ mb: 5 }}
       >
         <MuiNextLink
-          sx={{ textDecoration: "none", color: "common.white" }}
+          sx={{ textDecoration: "none", color: "common.black" }}
           href="https://google.com/"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,7 +30,7 @@ const Footer = () => {
           <Instagram fontSize="large" />
         </MuiNextLink>
         <MuiNextLink
-          sx={{ textDecoration: "none", color: "secondary.main" }}
+          sx={{ textDecoration: "none", color: "common.black" }}
           href="https://google.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Footer = () => {
           <Twitter fontSize="large" />
         </MuiNextLink>
       </Stack>
-      <Typography align="center" color="common.white">
+      <Typography align="center" color="common.black">
         © {new Date().getFullYear()}, Javi's Portfolio
       </Typography>
     </Box>

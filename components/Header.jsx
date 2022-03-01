@@ -26,7 +26,7 @@ const Header = () => {
     <>
     <HideOnScroll>
       <AppBar position="fixed">
-        <Toolbar>
+        <Toolbar sx={{ bgcolor: 'primary.main' }}>
           <Container
             maxWidth="lg"
             sx={{ display: `flex`, justifyContent: `space-between` }}
@@ -35,7 +35,7 @@ const Header = () => {
               <MuiNextLink activeClassName="active" href="/">
                 <Home
                   sx={{
-                    color: (theme) => theme.palette.common.white,
+                    color: (theme) => theme.palette.common.black,
                   }}
                   fontSize="large"
                 />
