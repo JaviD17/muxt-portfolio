@@ -32,7 +32,7 @@ const SectionAbout = () => {
           </Typography>
           <MuiNextLink href="/about" underline="none">
             <Button variant="outlined" size="large">
-              About Us
+              About
             </Button>
           </MuiNextLink>
         </Grid>
