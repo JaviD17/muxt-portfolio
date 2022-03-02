@@ -7,12 +7,7 @@ import MuiNextLink from "../components/MuiNextLink";
 const Footer = () => {
   return (
     <Box component="footer" sx={{ py: 5, bgcolor: "primary.main" }}>
-      <Stack
-        direction="row"
-        justifyContent="center"
-        spacing={4}
-        sx={{ mb: 5 }}
-      >
+      <Stack direction="row" justifyContent="center" spacing={4} sx={{ mb: 5 }}>
         <MuiNextLink
           sx={{ textDecoration: "none", color: "common.black" }}
           href="https://google.com/"
