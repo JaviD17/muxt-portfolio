@@ -12,7 +12,10 @@ const CourtneyReview = () => {
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: lightGreen[400] }} aria-label="Javi profile letter">
+          <Avatar
+            sx={{ bgcolor: lightGreen[400] }}
+            aria-label="Javi profile letter"
+          >
             CO
           </Avatar>
         }
