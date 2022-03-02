@@ -58,9 +58,16 @@ MyDocument.getInitialProps = async (ctx) => {
   const cache = createEmotionCache();
   const { extractCriticalToChunks } = createEmotionServer(cache);
 
+  // React doesn't allow for anonymous arrow functions (props) it needs a regular funtion with a display name.
+  // originalRenderPage({
+  //   enhanceApp: (App) => (props) => <App emotionCache={cache} {...props} />,
+  // });
+
   ctx.renderPage = () =>
     originalRenderPage({
-      enhanceApp: (App) => (props) => <App emotionCache={cache} {...props} />,
+      enhanceApp: (App) => function Props (props) {
+        return <App emotionCache={cache} {...props} />;
+      },
     });
 
   const initialProps = await Document.getInitialProps(ctx);

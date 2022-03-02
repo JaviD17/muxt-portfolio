@@ -24,7 +24,7 @@ const CourtneyReview = () => {
       <CardContent>
         <Rating value={4.5} precision={0.5} readOnly />
         <Typography variant="body2" color="text.secondary">
-          It's user friendly and easy to navigate I love the feel of this site.
+          {`It's user friendly and easy to navigate I love the feel of this site.`}
         </Typography>
       </CardContent>
     </Card>

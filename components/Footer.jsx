@@ -34,7 +34,7 @@ const Footer = () => {
         </MuiNextLink>
       </Stack>
       <Typography align="center" color="common.black">
-        © {new Date().getFullYear()}, Javi's Portfolio
+        © {new Date().getFullYear()}, {`Javi's Portfolio`}
       </Typography>
     </Box>
   );
