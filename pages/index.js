@@ -44,7 +44,7 @@ const Homepage = () => {
               title="A team"
               desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, minus."
               pagePath="./projects"
-              ctaText="Chcek Out"
+              ctaText="Check Out"
             />
           </Grid>
         </Grid>
