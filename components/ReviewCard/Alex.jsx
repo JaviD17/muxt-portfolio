@@ -7,19 +7,19 @@ import Typography from "@mui/material/Typography";
 
 import { lightGreen } from "@mui/material/colors";
 
-const CourtneyReview = () => {
+const JaviReview = () => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
         avatar={
           <Avatar
             sx={{ bgcolor: lightGreen[400] }}
-            aria-label="Javi profile letter"
+            aria-label="Alex profile letter"
           >
             CO
           </Avatar>
         }
-        title="Courtney"
+        title="Alex"
       />
       <CardContent>
         <Rating value={4.5} precision={0.5} readOnly />
@@ -31,4 +31,4 @@ const CourtneyReview = () => {
   );
 };
 
-export default CourtneyReview;
+export default JaviReview;

@@ -3,7 +3,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import JaviReview from "./ReviewCard/Javi";
 import PedroReview from "./ReviewCard/Pedro";
-import CourtneyReview from "./ReviewCard/Courtney";
+import AlexReview from "./ReviewCard/Alex";
 
 const SectionReview = () => {
   return (
@@ -19,7 +19,7 @@ const SectionReview = () => {
           <PedroReview />
         </Grid>
         <Grid container item justifyContent="center" xs={12} sm={6} md={4}>
-          <CourtneyReview />
+          <AlexReview />
         </Grid>
       </Grid>
     </Container>
