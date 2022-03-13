@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 
 import { lightGreen } from "@mui/material/colors";
 
-const JaviReview = () => {
+const AlexReview = () => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardHeader
@@ -31,4 +31,4 @@ const JaviReview = () => {
   );
 };
 
-export default JaviReview;
+export default AlexReview;
